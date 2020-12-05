@@ -199,8 +199,6 @@ const input = [2004,
 1799,
 1532]
 
-const smallInput = [1721,979,366,299,675,1456]
-
 input.forEach((item, index, array) => {
         let sliced = array.slice(index+1)
         sliced.forEach(e => {
