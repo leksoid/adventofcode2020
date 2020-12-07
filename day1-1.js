@@ -200,11 +200,13 @@ const input = [2004,
 1532]
 
 input.forEach((item, index, array) => {
-        let sliced = array.slice(index+1)
-        sliced.forEach(e => {
-            let sum = item + e
-            if (sum === 2020) {
-                console.log(`The expected is ${item} and ${e}, mult is ${item * e}`)
-            }
-        })
+    let sliced = array.slice(index+1)
+    sliced.forEach(e => {
+        let sum = item + e
+        if (sum === 2020) {
+            console.log(`The expected is ${item} and ${e}, mult is ${item * e}`)
+        }
     })
+})
+
+   
